@@ -4,35 +4,21 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-int a = 2;
-int b = 3;
-int c = 7;
-if (b < a > c) ;
+Console.WriteLine("Введите первое число: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третье число: ");
+int num3 = Convert.ToInt32(Console.ReadLine());
+if (num2 < num1 > num3);
 {
-    Console.WriteLine("{0} максимальное число", a);
+Console.WriteLine("{0} максимальное число", a);
 }
-else if (a < b > c)
+else if (num1 < num2 > num3)
 {
-    Console.WriteLine("{0} максимальное число", b);
+Console.WriteLine("{0} максимальное число", b);
 }
-else if (a < c > b)
+else if (num1 < num3 > num2)
 {
-    Console.WriteLine("{0} максимальное число ", с);
-}
-
-int a = 2;
-int b = 3;
-int c = 7;
-Mmax = a
-if (a > b) ;
-{
-    Console.WriteLine("{0} максимальное число", a);
-}
-else
-{
-    Console.WriteLine("{0} максимальное число", b);
-}
-if (c > максимальное число);
-{
-    Console.WriteLine("{0} максимальное число ", с);
+Console.WriteLine("{0} максимальное число ", с);
 }
