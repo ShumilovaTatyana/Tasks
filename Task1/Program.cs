@@ -6,8 +6,8 @@
 // a = 9; b = -3 -> нет
 // a = -3 b = 9 -> да
 
-int a = 25;
-int b = 5;
+int a = -3;
+int b = 9;
 int square = b * b;
 if (square == a)
     Console.WriteLine ("Да");
