@@ -13,9 +13,17 @@
 // int x1 = bt;
 // Console.WriteLine (x1);
 
+// Напишите программу, которая на вход
+// принимает число и выдаёт его квадрат (число
+// умноженное на само себя).
+// Например:
+// 4 -> 16
+// -3 -> 9
+// -7 -> 49
+
 Console.Write("Введите целое число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-//int num = 5;
+//int num = 4;
 int square = num * num;
 Console.Write($"Квадрат числа {num} = {square}");
 
