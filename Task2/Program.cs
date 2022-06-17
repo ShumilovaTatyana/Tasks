@@ -4,33 +4,36 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-// Console.Write("Введите число a: ");
-// Console.Write("Введите число b: ");
-// if (a > b);
-// {    Console.WriteLine("{0} наибольшее число", a);
+Console.WriteLine("Введите первое число: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+if (num1 > num2)
+{   
+    Console.WriteLine("{0} наибольшее число", num1);
+    Console.WriteLine("{0} наименьшее число", num2);
+} 
+else
+{
+    Console.WriteLine("{0} наибольшее число ", num2);
+    Console.WriteLine("{0} наименьшее число", num1);
+}
+{
+   Console.ReadLine();
+}
+
+// int a = -9;
+// int b = -3;
+// if (a > b)
+// {
+//     Console.WriteLine("{0} наибольшее число", a);
 //     Console.WriteLine("{0} наименьшее число", b);
-// } 
+// }
 // else
 // {
 //     Console.WriteLine("{0} наибольшее число ", b);
 //     Console.WriteLine("{0} наименьшее число", a);
 // }
 // {
-//    Console.ReadLine();
+//     Console.ReadLine();
 // }
-
-int a = -9;
-int b = -3;
-if (a > b)
-{
-    Console.WriteLine("{0} наибольшее число", a);
-    Console.WriteLine("{0} наименьшее число", b);
-}
-else
-{
-    Console.WriteLine("{0} наибольшее число ", b);
-    Console.WriteLine("{0} наименьшее число", a);
-}
-{
-    Console.ReadLine();
-}
