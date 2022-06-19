@@ -3,22 +3,14 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-// Console.Write("Введите число: ");
-// int n = int.Parse(Console.ReadLine());
-
-// for (int i = 1; i <= n; i++)
-//     if (i % 2 == 0)
-//         Console.WriteLine(i);
+// num1 += 2 значит увеличить значение переменной num1 на 2
 
 
-Console.WriteLine("Введите число N: ");
+Console.Write("Введите число N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int num1 = 1;
-int numn = num;
-if (num1 <= num)
-if (num <= numn)
-if (num % 2 == 0)
+while (num1 < num)
 {
-   Console.WriteLine(num);
+    Console.WriteLine(num1 + 1);
+    num1 += 2;
 }
-   
