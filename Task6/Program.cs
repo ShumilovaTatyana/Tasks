@@ -15,6 +15,3 @@ else
 {
     Console.WriteLine("Нет");
 }
-{
-   Console.ReadLine();
-}
