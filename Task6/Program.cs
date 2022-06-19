@@ -5,9 +5,8 @@
 // 7 -> нет
 
 
-int i;
 Console.WriteLine("Введите число: ");
-i = int.Parse(Console.ReadLine());
+int i = Convert.ToInt32(Console.ReadLine());
 if (i % 2 == 0)
 {   
     Console.WriteLine("Да, число является четным");
