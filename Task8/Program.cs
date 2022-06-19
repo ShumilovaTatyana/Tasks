@@ -11,11 +11,14 @@
 //         Console.WriteLine(i);
 
 
-Console.Write("Введите число N: ");
+Console.WriteLine("Введите число N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int num1 = 1;
-int numn = N;
-if (num1 <= num <= numn)
-    if (num % 2 == 0)
+int numn = num;
+if (num1 <= num)
+if (num <= numn)
+if (num % 2 == 0)
+{
    Console.WriteLine(num);
-   num = num + 1;
+}
+   
