@@ -8,8 +8,8 @@
 Console.Write("Введите число N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int num1 = -num;
-while (num1 < num)
+while (num1 <= num)
 {
-    Console.WriteLine(num1 + 1);
-    num1 += 1;
+    Console.WriteLine(num1);
+     num1 += 1;
 }
