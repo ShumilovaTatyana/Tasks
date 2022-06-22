@@ -18,9 +18,7 @@ else
     Console.WriteLine("{0} наибольшее число ", num2);
     Console.WriteLine("{0} наименьшее число", num1);
 }
-{
-   Console.ReadLine();
-}
+
 
 // int a = -9;
 // int b = -3;
