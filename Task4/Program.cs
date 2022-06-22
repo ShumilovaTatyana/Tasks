@@ -38,11 +38,11 @@ if (num1 > max)
 {
     max = (num1);
 }
-else if (num2 > max)
+if (num2 > max)
 {
     max = (num2);
 }
-else if (num3 > max)
+if (num3 > max)
 {
     max = num3;
 }
