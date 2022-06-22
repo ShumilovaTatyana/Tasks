@@ -5,24 +5,47 @@
 // 22 3 9 -> 22
 
 
+// Console.WriteLine("Введите первое число: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите третье число: ");
+// int num3 = Convert.ToInt32(Console.ReadLine());
+// if (num2 < num1) 
+// if (num3 < num1)
+// {
+// Console.WriteLine("{0} максимальное число", num1);
+// }
+// if (num1 < num2)
+// if (num3 < num2)
+// {
+// Console.WriteLine("{0} максимальное число", num2);
+// }
+// if (num1 < num3)
+// if (num2 < num3)
+// {
+// Console.WriteLine("{0} максимальное число ", num3);
+// }
+
 Console.WriteLine("Введите первое число: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
-if (num2 < num1) 
-if (num3 < num1)
+int max = num1;
+if (num1 > max)
 {
-Console.WriteLine("{0} максимальное число", num1);
+    max = (num1);
 }
-if (num1 < num2)
-if (num3 < num2)
+else if (num2 > max)
 {
-Console.WriteLine("{0} максимальное число", num2);
+    max = (num2);
 }
-if (num1 < num3)
-if (num2 < num3)
+else if (num3 > max)
 {
-Console.WriteLine("{0} максимальное число ", num3);
+    max = num3;
+}
+{
+    Console.WriteLine("{0} максимальное число", max);
 }

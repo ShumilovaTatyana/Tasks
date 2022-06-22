@@ -8,6 +8,5 @@
 Console.Write("Введите число N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int num1 = num % 10;
-{
-    Console.WriteLine(num1);
-}
+Console.WriteLine(num1);
+
